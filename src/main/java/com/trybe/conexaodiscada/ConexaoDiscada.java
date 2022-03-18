@@ -13,7 +13,13 @@ public class ConexaoDiscada {
    *
    */
   public static void main(String[] args) {
-    // Seu código aqui
+    for (int i = 0; i < 3; i++) {
+      boolean tentativa = conectou();
+      if (tentativa == true) {
+        System.out.println("conectou");
+        break;
+      }
+    }
   }
 
   // Chame esta função escrevendo `conectou()`

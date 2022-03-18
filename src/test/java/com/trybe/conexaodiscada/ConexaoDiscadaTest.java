@@ -19,6 +19,7 @@ class ConexaoDiscadaMock extends ConexaoDiscada {
 
     return numChamadas >= maxChamadas;
   }
+
 }
 
 
