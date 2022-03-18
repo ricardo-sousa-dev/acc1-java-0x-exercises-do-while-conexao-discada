@@ -15,6 +15,7 @@ public class ConexaoDiscada {
   public static void main(String[] args) {
     for (int i = 0; i < 3; i++) {
       boolean tentativa = conectou();
+      
       if (tentativa == true) {
         System.out.println("conectou");
         break;
